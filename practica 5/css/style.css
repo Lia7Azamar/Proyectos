@@ -1,0 +1,66 @@
+﻿/*selector universal*/
+*{
+    margin:0;
+    padding:0;
+    font-family:'Courier New', Courier, monospace;
+
+}
+/*selector de etiqueta*/
+body{
+    background-color:#F06292;
+}
+/*selector de clase*/
+.content-form {
+    /*comentario*/
+    height:300px;
+    /*width define el tamaño de ancho*/
+    width: 350px;
+    /*color de fondo*/
+    background-color:violet;
+    margin: auto;
+    padding: 20px; /*espaciado entre los controles*/
+    margin-top: 30px;
+    border:7px solid #E91E63;
+    /*border_radius para redondear esquinas*/
+    border-radius:10px;
+    /*sombra al formulario*/
+    box-shadow:0px 20px 20px #880E4F;
+
+}
+form {
+    margin: 0 auto;
+}
+
+.cajas-texto{
+    border-radius:20px;
+    width:99%;
+   padding:5px;
+   margin-bottom:10px;
+}
+/*selector de etiquetas*/
+h3{
+    text-align:center;
+    color:black;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+/*selector de id*/
+#botones, select{
+    width: 99%;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color:pink;
+    border: 3px solid palevioletred;
+    color:black;
+}
+
+/*selector de pseudo clase*/
+#botones:hover{
+    background-color: palevioletred;
+    color:blueviolet;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+
+}

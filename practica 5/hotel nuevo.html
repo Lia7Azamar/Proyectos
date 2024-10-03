@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Hotel real jilo</title>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+    <section class="content-form">
+    <section>
+        <h3>Bienvenido a hotel real jilo</h3>
+        <form id="frmHotel">
+        <form>  
+            <!-- comentario      -->
+            <input id ="textDias"class="cajas-texto" type="number" placeholder="Dias hospedados" >
+            <input id ="textPrecio"class="cajas-texto" type="number" placeholder="Precio diario habitacion" >
+            <!--input type="button" value="Calcular hospedaje"  -->
+            <select id="cmbTipoPago">
+                <option value="no selecciona">--Seleccione tipo de pago--</option>
+                <option value="efectivo">Efectivo</option>
+                <option value="tarjeta">Tarjeta de credito</option>
+            </select>
+            <button id="botones"type="submit">Calcular hospedaje</button>
+            <button id="botones"type="reset">Cancelar</button>
+       
+        </form>
+        <h4 id="Resultado"></h4>
+    </section>
+    <script src="js/2.js"></script>
+</body>
+</html>
