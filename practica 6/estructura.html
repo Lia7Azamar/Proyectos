@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Empleados</title>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+    <section class="content-form">
+    <section>
+        <h3>Ingrese los siguientes datos</h3>
+        <form id="empleados">
+        <form>  
+            <!-- comentario      -->
+            <input id ="textNombre"class="cajas-texto" type="text" placeholder="Nombre completo" required>
+            <input id ="textHoras"class="cajas-texto" type="number" placeholder="Numero de horas trabajadas" required>
+            <input id ="textCuota"class="cajas-texto" type="number" placeholder="Cuota" required>
+            <!--input type="button" value="Calcular hospedaje"  -->
+            <select id="cmbTipo" required>
+                <option value="no selecciona">--Seleccione el tipo de empleado--</option>
+                <option value="tipo 1">Tipo 1</option>
+                <option value="tipo 2">Tipo 2</option>
+                <option value="tipo 3">Tipo 3</option>
+                <option value="tipo 4">Tipo 4</option>
+            </select>
+            <button id="botones"type="submit">Calcular sueldo</button>
+            <button id="botones"type="reset">Cancelar</button>
+       
+        </form>
+        <h4 id="Resultado"></h4>
+    </section>
+    <script src="js/js.js"></script>
+</body>
+</html>
