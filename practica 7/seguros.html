@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Seguros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+    <section class="content-form">
+        <h2 class="form_tittle">Bievenido a seguros LIFE</h2>
+        <form id="seguros">
+        <form>
+            <div class="form_container">
+                <h3>Tipo de polisa</h3>
+                <div class="form_group">
+                    <select id="cmbpolisa" class="form_selet" >
+                        <option value="no selecciona" class="a">Seleccione un tipo de polisa</option>
+                         <option value="tipo A" class="a">Cobertura amplia</option>
+                          <option value="tipo B" class="a">Daño a terceros</option>
+                        </select>
+                    </div>
+                    <div class="form_group">
+                         <h3>Usted bebe seguido?</h3>
+                         <select id="Alcohol" class="form_selet" >
+                            <option value="no selecciona" class="a">Seleccione una opcion</option>
+                            <option value="Si" class="a">Si</option>
+                             <option value="No" class="a">No</option>
+                            </select>
+                         </div>
+                         <div class="form_group">
+                            <h3>Padece alguna enfermedad?</h3>
+                            <select id="Enfermedad" class="form_selet" >
+                                <option value="no selecciona" class="a">Seleccione una opcion</option>
+                                <option value="Si" class="a">Si</option>
+                                 <option value="No" class="a">No</option>
+                                </select>
+                            </div>
+                            <div class="form_group">
+                                <h3>Usted necesita lentes?</h3>
+                                <select id="Lentes" class="form_selet" >
+                                    <option value="no selecciona" class="a">Seleccione una opcion</option>
+                                    <option value="Si" class="a">Si</option>
+                                     <option value="No" class="a">No</option>
+            
+                                    </select>
+                                </div>
+                                <div class="form_group">
+                                    <h3>Ingrese su edad</h3>
+                                    <input id ="textAños"class="form_input" type="number" placeholder required>
+                                    <label for="textAños" class="form_label">Que edad tiene?:</label>
+                                    <span class="form_line"></span>
+                                </div>
+           
+                                <button id="botones"type="submit" class="form_submit">Enviar</button>
+                                <button id="botones"type="reset" class="form_submit">Cancelar</button>
+            
+           
+                            </div>
+                        </form>
+                        <h4 id="Resultado"></h4>
+                    </section>
+                    <script src="js/estructura.js"></script>
+                 </body>
+                </html>

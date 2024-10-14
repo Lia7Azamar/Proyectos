@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Contenedor principal */
+  .factg {
+    max-width: 400px;
+    margin-top:5%;
+    margin-left:34%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  /* Formulario */
+  #fact {
+    text-align: center;
+    
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #numero {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #botones {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #botones:hover {
+    background-color: #0056b3;
+  }
+  
+  /* R

@@ -1,0 +1,133 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-image: url(a2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+ 
+  
+}
+
+.content-form {
+    height:660px;
+    width:580px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid rgba(255,255,255,.6);
+    border-radius:20px;
+    text-align:left;
+    backdrop-filter: blur(15px);
+
+    
+  
+
+}
+.form_tittle{
+    font-size: 25px;
+    margin-bottom:10px;
+    color:white;
+ 
+    border: none;
+    border-radius: .5em;
+    font-family: 'Times New Roman', Times, serif;
+
+   
+    
+}
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: .5em;
+    color:white
+    
+}
+.form_group{
+    position:relative;
+    --color:white;
+
+}
+.form_input{
+    width: 100%;
+    background: none;
+    color:white;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 10px;
+   
+}
+.form_selet{
+    width: 100%;
+    color:white;
+    font-size: 1rem;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    background:-webkit-linear-gradient(158deg,#9F1ABA,#EF18B4,#8A0F36);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    padding: .8em 10px;
+    border: none;
+    border-radius: .5em;
+    margin-bottom: 10px;
+}
+
+.a{
+    background:gray;
+}
+
+.form_selet:hover{
+    background:-webkit-linear-gradient(158deg,#94BDAE,#9498BD,#BD94A6);
+    color:black;
+}
+.form_input:focus+.form_label,.form_input:not(:placeholder-shown)+.form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color:black;
+}
+.form_label{
+    color:var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 29px;
+    left: 5px;
+    transform: translateY(10px0);
+    transition: transform .5s,color .3s;
+}
+
+#botones, select{
+    background:#201A1F;
+    color:#fff;
+    font-family: 'Bold 700 Italic',sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+    cursor:pointer;
+}
+
+#botones:hover{
+    background:-webkit-linear-gradient(158deg,#160581,#0F9ADF,#0CFAE1);
+    color:black;
+    cursor:pointer;
+    font-family: 'Bold 700 Italic', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+
+}
+
+
+
